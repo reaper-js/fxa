@@ -39,7 +39,6 @@ export const PageAddAvatar = (_: RouteComponentProps) => {
 
       <form onSubmit={handleSubmit}>
         <Avatar className="mx-auto w-32" />
-
         <div className="flex text-center justify-around max-w-xs my-4 mx-24">
           <div className="cursor-pointer">
             <ButtonIcon
