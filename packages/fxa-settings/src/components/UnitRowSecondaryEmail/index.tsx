@@ -5,6 +5,7 @@
 import React, { ReactNode, useState } from 'react';
 import { gql } from '@apollo/client';
 import { useNavigate } from '@reach/router';
+import firefox from '../../lib/firefox';
 import { useAlertBar, useMutation } from '../../lib/hooks';
 import { useAccount, useLazyAccount, Email } from '../../models';
 import UnitRow from '../UnitRow';
@@ -73,6 +74,7 @@ export const UnitRowSecondaryEmail = () => {
     MAKE_EMAIL_PRIMARY_MUTATION,
     {
       onCompleted() {
+        firefox.profileChanged(account.uid);
         alertBar.success(`${email} is now your primary email.`);
       },
       onError(error) {
