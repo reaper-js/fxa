@@ -33,7 +33,7 @@ export const PageChangeAvatar = (_: RouteComponentProps) => {
       )}
 
       <form onSubmit={handleSubmit}>
-        <Avatar className="mx-auto w-32" />
+        {/* <Avatar className="mx-auto w-32" /> */}
 
         <AvatarCropper />
 
