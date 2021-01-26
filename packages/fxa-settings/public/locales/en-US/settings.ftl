@@ -13,6 +13,13 @@ app-footer-mozilla-logo-label = Mozilla logo
 app-footer-privacy-notice = Website Privacy Notice
 app-footer-terms-of-service = Terms of Service
 
+# Avatar component
+
+avatar-your-avatar =
+  .alt = Your avatar
+avatar-default-avatar =
+  .alt = Default avatar
+
 # HeaderLockup component
 
 header-menu-open = Close menu
@@ -32,6 +39,25 @@ nav-security = Security
 nav-connected-services = Connected Services
 nav-paid-subs = Paid Subscriptions
 nav-email-comm = Email Communications
+
+# Avatar change page
+
+avatar-page-title =
+  .title = Avatar
+avatar-page-add-photo = Add Photo
+avatar-page-add-photo-button =
+  .title = { avatar-page-add-photo }
+avatar-page-take-photo = Take Photo
+avatar-page-take-photo-button =
+  .title = { avatar-page-take-photo }
+avatar-page-remove-photo-button =
+  .title = Remove photo
+avatar-page-retake-photo = Retake Photo
+avatar-page-close-button = Close
+avatar-page-save-button = Save
+avatar-page-camera-error = Could not initialize camera
+avatar-page-new-avatar =
+  .alt = new avatar
 
 ## Password change page
 pw-change-header =
